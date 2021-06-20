@@ -1,0 +1,37 @@
+solrctl config --create logs_config predefinedTemplate -p immutable=false
+solrctl instancedir --generate $HOME/configurationNameNew
+solrctl collection --create logNew2 -c logs_config
+solrctl collection --list
+
+author:"George" AND "Martin"
+price:{5 TO 6}
+series_t:"Chronicles" AND NOT series_t:"Prydain" AND NOT series_t:"Amber"
+series_t:"Chronicles" AND sequence_i:1
+inStock:False AND cat:"book"
+
+
+****************************
+
+solrctl instancedir --generate /tmp/films
+gedit /tmp/films/conf/schema.xml
+
+
+   <field name="directed_by" type="text_general" indexed="true" stored="true"/>
+   <field name="genre" type="text_general" indexed="true" stored="true"/>
+   <field name="initial_release_date" type="text_general" indexed="true" stored="true"/>
+
+
+solrctl instancedir --create film /tmp/films
+solrctl collection --create films -c film
+
+
+directed_by:"Michael" AND genre:"thriller"
+genre:biographical AND initial_release_date:[2000 TO 2018]
+directed_by:Michael AND NOT directed_by:BAY
+directed_by:John~2
+genre:"action thriller"~2
+
+**********************
+
+directed_by:John~2
+genre:"action thriller"~3

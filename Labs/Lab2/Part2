@@ -1,0 +1,70 @@
+solrctl config --create google_config predefinedTemplate -p immutable=false
+solrctl instancedir --generate /tmp/GoogleJobs
+gedit /tmp/GoogleJobs/conf/schema.xml
+
+   <field name="Location" type="text_general" indexed="true" stored="true"/>
+   <field name="Title" type="text_general" indexed="true" stored="true"/>
+   <field name="Company" type="text_general" indexed="true" stored="true"/>
+   <field name="Category" type="text_general" indexed="true" stored="true"/>
+   <field name="Responsibilities" type="text_general" indexed="true" stored="true"/>
+   <field name="Minimum Qualifications" type="text_general" indexed="true" stored="true"/>
+   <field name="Preferred Qualifications" type="text_general" indexed="true" stored="true"/>
+
+solrctl instancedir --create google /tmp/GoogleJobs
+solrctl collection --create GoogleJobs -c google
+solrctl collection --list
+
+-----------------------------------------
+
+
+
+### QUERIES ###
+
+# ONE, Hadoop but not prefer phd #
+Preferred\ Qualifications:"Hadoop" NOT Preferred\ Qualifications:"PhD"
+sort=Category desc
+
+# TWO, job has python and category isn't marketing  #
+Preferred\ Qualifications:"python" NOT Category:"Marketing"
+
+http://quickstart.cloudera:8983/solr/GoogleJobs_shard1_replica1/select?q=Preferred\+Qualifications%3A%22python%22+NOT+Category%3A%22Marketing%22&wt=json&indent=true&debugQuery=true&sort=Category%20desc
+
+# THREE, python and ba/bs but python is boosted. #
+Minimum\ Qualifications:"python"^4 AND Minimum\ Qualifications:"experience"
+
+http://quickstart.cloudera:8983/solr/GoogleJobs_shard1_replica1/select?q=Minimum\+Qualifications%3A%22python%22^4+AND+Minimum\+Qualifications%3A%22experience%22&wt=json&indent=true&debugQuery=true&sort=Category%20desc
+
+# FOUR, bachelors or ba or ba/bs #
+Minimum\ Qualifications:ba*
+
+http://quickstart.cloudera:8983/solr/GoogleJobs_shard1_replica1/select?q=Minimum\+Qualifications%3Aba*&wt=json&indent=true&debugQuery=true&sort=Category%20desc
+
+# FIVE, economics degree in US or UK working with stats #
+Minimum\ Qualifications:econom* && Location:United && Responsibilities:stat*
+
+http://quickstart.cloudera:8983/solr/GoogleJobs_shard1_replica1/select?q=Minimum\+Qualifications%3Aeconom*+%26%26+Location%3AUnited+%26%26+Responsibilities%3Astat*&wt=json&indent=true&debugQuery=true&sort=Category%20desc
+
+# SIX, Nested, Marketing in India #
+Category:Marketing and _query_:"Location:India"
+
+http://quickstart.cloudera:8983/solr/GoogleJobs_shard1_replica1/select?q=Category%3AMarketing+and+_query_%3A%22Location%3AIndia%22&wt=xml&indent=true&debugQuery=true
+
+# SEVEN, Nested, Natural Language jobs in Data #
+Category:Data and _query_:"{!dismax qf=Responsibilities}dialogue analysis natural language optimization"
+
+http://quickstart.cloudera:8983/solr/GoogleJobs_shard1_replica1/select?q=Category%3AData+and+_query_%3A%22{!dismax+qf%3DResponsibilities}dialogue+analysis+natural+language+optimization%22&wt=xml&indent=true&debugQuery=true
+
+# EIGHT, sales job with infrastructure experience not in India#
+Category:"sales" AND NOT Location:india AND _query_:"{!dismax qf=Responsibilities}infrastructure experience"
+
+http://quickstart.cloudera:8983/solr/GoogleJobs_shard1_replica1/select?q=Category%3A%22sales%22+AND+NOT+Location%3Aindia+AND+_query_%3A%22{!dismax+qf%3DResponsibilities}infrastructure+experience%22&wt=xml&indent=true&debugQuery=true
+
+# NINE, #
+Preferred\ Qualifications:Masters and {!dismax qf=Responsibilities}programming"
+
+http://quickstart.cloudera:8983/solr/GoogleJobs_shard1_replica1/select?q=Preferred\+Qualifications%3AMasters+and+{!dismax+qf%3DResponsibilities}programming%22&wt=xml&indent=true&debugQuery=true
+
+# TEN, #
+Location:"United States" and {!edismax qf=Responsibilities}programming"
+
+http://quickstart.cloudera:8983/solr/GoogleJobs_shard1_replica1/select?q=Location%3A%22United+States%22+and+{!edismax+qf%3DResponsibilities}programming%22&wt=xml&indent=true&debugQuery=true

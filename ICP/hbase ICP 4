@@ -1,0 +1,22 @@
+(JavaLang::Long::MAX_VALUE - JavaLang::System.currentTimeMillis()).to_s
+
+
+
+
+"78907" + " - " + (JavaLang::Long::MAX_VALUE - JavaLang::System.currentTimeMillis()).to_s + " - " + "ae456fb9c"
+
+
+
+
+
+
+
+
+
+
+
+
+(JavaLang::Long::MAX_VALUE - JavaLang::System.currentTimeMillis()).to_s + " - " + "ae456fb9c"
+(JavaLang::Long::MAX_VALUE - JavaLang::System.currentTimeMillis()).to_s + " - " + "ae456fb9c"
+(JavaLang::Long::MAX_VALUE - JavaLang::System.currentTimeMillis()).to_s + " - " + "ae456fb9c"
+(JavaLang::Long::MAX_VALUE - JavaLang::System.currentTimeMillis()).to_s + " - " + "ae456fb9c"

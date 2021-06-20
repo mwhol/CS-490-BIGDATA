@@ -1,0 +1,184 @@
+Code will need to be separate by type, I have appended '###' to the front of rows which are describing which file to put each piece in.
+
+### WordCount.java ###
+
+/**
+ * Created by Mayanka on 03-Sep-15.
+ */
+import java.io.IOException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
+
+public class WordCount {
+
+    public static void main(String[] args) throws IOException,
+            InterruptedException, ClassNotFoundException {
+
+        Path inputPath = new Path(args[0]);
+        Path outputDir = new Path(args[1]);
+
+        // Create configuration
+        Configuration conf = new Configuration(true);
+
+        // Create job
+        Job job = new Job(conf, "WordCount");
+        job.setJarByClass(WordCountMapper.class);
+
+        // Setup MapReduce
+        job.setMapperClass(WordCountMapper.class);
+        job.setReducerClass(WordCountReducer.class);
+        job.setNumReduceTasks(1);
+
+        // Specify key / value
+        job.setOutputKeyClass(Text.class);
+        job.setOutputValueClass(Text.class);
+
+        // Input
+        FileInputFormat.addInputPath(job, inputPath);
+        job.setInputFormatClass(TextInputFormat.class);
+
+        // Output
+        FileOutputFormat.setOutputPath(job, outputDir);
+        job.setOutputFormatClass(TextOutputFormat.class);
+
+        // Delete output if exists
+        FileSystem hdfs = FileSystem.get(conf);
+        if (hdfs.exists(outputDir))
+            hdfs.delete(outputDir, true);
+
+        // Execute job
+        int code = job.waitForCompletion(true) ? 0 : 1;
+        System.exit(code);
+
+    }
+
+}
+
+
+### WordCountMapper.java ###
+
+/**
+ * Created by Mayanka on 03-Sep-15.
+ */
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.StringTokenizer;
+
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class WordCountMapper extends
+        Mapper<Object, Text, Text, Text> {
+
+    private String person = new String();
+    private String friends = new String();
+    private String keyone = new String();
+    private String valueone = new String();
+    private Text ActualKey = new Text();
+    private Text ActualValue = new Text();
+    //private char[] friendspair = new char[];
+
+    public void map(Object key, Text value, Context context
+    ) throws IOException, InterruptedException {
+        StringTokenizer itr = new StringTokenizer(value.toString());
+        while (itr.hasMoreTokens()) {
+            person = itr.nextToken().toString();
+            friends = itr.nextToken().toString();
+            for (int i = 0; i < friends.length(); i++) {
+                keyone = person + String.valueOf(friends.charAt(i));
+                valueone = friends.replace(String.valueOf(friends.charAt(i)), "");
+
+                char[] friendspair = keyone.toCharArray();
+                Arrays.sort(friendspair);
+                keyone = String.valueOf(friendspair);
+
+                Text ActualKey = new Text(keyone);
+                Text ActualValue = new Text(valueone);
+
+                System.out.print(ActualKey);
+                System.out.print(" - ");
+                System.out.print(ActualValue);
+                System.out.print("\n");
+
+                context.write(ActualKey, ActualValue);
+            }
+        }
+    }
+}
+
+
+### WordCountReducer.java ###
+
+/**
+ * Created by Mayanka on 03-Sep-15.
+ */
+import java.io.IOException;
+
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+public class WordCountReducer extends
+        Reducer<Text, Text, Text, Text> {
+
+    private String stringone = new String();
+    private String stringtwo = new String();
+    private String letter = new String();
+    private String InterValue = new String();
+    private Text FinalValue = new Text();
+
+    public void reduce(Text text, Iterable<Text> values, Context context)
+            throws IOException, InterruptedException {
+
+            InterValue = "";
+            stringone = values.iterator().next().toString();
+            stringtwo = values.iterator().next().toString();
+
+            for (int i = 0; i < stringone.length(); i++) {
+                letter = String.valueOf(stringone.charAt(i));
+                if (stringtwo.indexOf(letter) != -1) {
+                    InterValue += String.valueOf(stringone.charAt(i));
+                }
+            }
+            Text FinalValue = new Text(InterValue);
+            context.write(text, FinalValue);
+    }
+}
+
+
+
+
+################
+### Part Two ###
+################
+
+create keyspace labone with replication={'class':'SimpleStrategy', 'replication_factor':1};
+use labone;
+CREATE TABLE waterusage(ID int PRIMARY KEY, deviceID text, waterrate int, runningtotal int, activationnumber int, timestamp int);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408024, 'i20-0001', 30, 0, 1, 1529024142);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408025, 'i20-0001', 30, 2, 1, 1529024144);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408026, 'i20-0001', 30, 4, 1, 1529024146);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408027, 'i20-0001', 30, 6, 1, 1529024148);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408028, 'i20-0001', 30, 8, 1, 1529024150);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408029, 'i20-0001', 30, 10, 1, 1529024152);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408030, 'i20-0001', 15, 11, 1, 1529024154);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408031, 'i20-0001', 15, 12, 1, 1529024156);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408032, 'i20-0001', 0, 12, 1, 1529024158);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408033, 'i20-0001', 10, 0, 2, 1529026100);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408034, 'i20-0001', 20, 1, 2, 1529026102);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408035, 'i20-0001', 20, 3, 2, 1529026104);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408036, 'i20-0001', 0, 3, 2, 1529026106);
+#Get all the times when the water is flowing at a high rate
+SELECT timestamp, deviceid, waterrate FROM waterusage WHERE waterrate > 25 ALLOW FILTERING;
+#export data for easier use
+SELECT timestamp, runningtotal, waterrate FROM waterusage where activationnumber = 1 ALLOW FILTERING;
+#helps us find out how our table is configured, check errors, make sure data is still streaming appropriately
+describe waterusage;

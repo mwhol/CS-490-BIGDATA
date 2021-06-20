@@ -1,0 +1,137 @@
+Part 1
+mysql -u root -p
+
+create table acad(emp_id INT NOT NULL AUTO_INCREMENT, emp_name VARCHAR(100), emp_sal INT, PRIMARY KEY(emp_id));
+
+insert into acad values(5, "sanam",5000),(6,"opra",600000),(7,"yella",700000);
+
+sqoop import --connect jdbc:mysql://localhost/db1 --username root --password cloudera --table acad --m 1
+
+hadoop fs -ls
+hadoop fs -ls acad/
+hadoop fs -cat acad/*
+
+sqoop import --connect jdbc:mysql://localhost/db1 --username root --password cloudera --table acad --m 1 --target-dir queryresult
+
+hadoop fs -cat queryresult/part-m-*
+
+sqoop import-all-tables --connect jdbc:mysql://localhost/db1 --username root --password cloudera
+
+sqoop export --connect jdbc:mysql://localhost/db1 --username root --password cloudera --table acad --export-dir queryresult
+
+
+
+
+
+-----------------------------------------------------------------
+Part 2
+hive –f tables-schemas.hql
+
+CREATE TABLE emp ( empid INT, emp_name STRING) ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+STORED AS TEXTFILE;
+
+LOAD DATA INPATH 'acad/' INTO TABLE emp;
+
+SELECT * FROM emp;
+
+hadoop fs -ls /user/hive/warehouse
+
+
+use db1;
+create table empNew(empid INT, emp_name VARCHAR(100));
+
+sqoop export --connect jdbc:mysql://localhost/db1 --username root --password cloudera --table empNew --export-dir /user/hive/warehouse/emp -m 1
+
+---------------------------
+Part 3
+
+CREATE TABLE stocks (
+  ymd             STRING,
+  price_open      FLOAT, 
+  price_high      FLOAT,
+  price_low       FLOAT,
+  price_close     FLOAT,
+  volume          INT,
+  price_adj_close FLOAT
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ',';
+
+LOAD DATA LOCAL INPATH '/home/cloudera/Desktop/stocks/plain-text/NYSE/GE' 
+INTO TABLE stocks;
+
+--
+use db1;
+
+
+CREATE TABLE stocks (
+  ymd             TEXT,
+  price_open      FLOAT, 
+  price_high      FLOAT,
+  price_low       FLOAT,
+  price_close     FLOAT,
+  volume          INT,
+  price_adj_close FLOAT
+)
+
+sqoop export --connect jdbc:mysql://localhost/db1 --username root --password cloudera --table stocks --export-dir /user/hive/warehouse/stocks -m 1
+
+--
+
+
+SELECT avg(price_close) FROM stocks;
+SELECT ymd, MAX(price_close) FROM stocks;
+\
+SELECT ymd, price_close from stocks WHERE price_close = 76.75;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------
+CREATE TABLE IF NOT EXISTS employees (
+  name         STRING,
+  salary       FLOAT,
+  subordinates ARRAY<STRING>,
+  deductions   MAP<STRING, FLOAT>,
+  address      STRUCT<street:STRING, city:STRING, state:STRING, zip:INT>
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY '\001' 
+COLLECTION ITEMS TERMINATED BY '\002' 
+MAP KEYS TERMINATED BY '\003'
+LINES TERMINATED BY '\n'
+STORED AS TEXTFILE;
+
+LOAD DATA LOCAL INPATH '/home/cloudera/Desktop/employees' 
+INTO TABLE employees;
+
+
+
+----MySQL
+
+use db1;
+
+create table employees (name TEXT, salary FLOAT, subordinates TEXT, deductions TEXT, address TEXT)'
+
+
+----bash
+
+sqoop export --connect jdbc:mysql://localhost/db1 --username root --password cloudera --table employees --export-dir /user/hive/warehouse/employees -m 1
+
+

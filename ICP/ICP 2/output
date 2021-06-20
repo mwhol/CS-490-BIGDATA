@@ -1,0 +1,128 @@
+/usr/lib/jvm/default-java/bin/java -javaagent:/home/mjw3/Downloads/idea-IC-181.5087.20/lib/idea_rt.jar=45354:/home/mjw3/Downloads/idea-IC-181.5087.20/bin -Dfile.encoding=UTF-8 -classpath "/usr/lib/jvm/default-java/jre/lib/charsets.jar:/usr/lib/jvm/default-java/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/default-java/jre/lib/ext/dnsns.jar:/usr/lib/jvm/default-java/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/default-java/jre/lib/ext/jaccess.jar:/usr/lib/jvm/default-java/jre/lib/ext/localedata.jar:/usr/lib/jvm/default-java/jre/lib/ext/nashorn.jar:/usr/lib/jvm/default-java/jre/lib/ext/sunec.jar:/usr/lib/jvm/default-java/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/default-java/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/default-java/jre/lib/ext/zipfs.jar:/usr/lib/jvm/default-java/jre/lib/jce.jar:/usr/lib/jvm/default-java/jre/lib/jsse.jar:/usr/lib/jvm/default-java/jre/lib/management-agent.jar:/usr/lib/jvm/default-java/jre/lib/resources.jar:/usr/lib/jvm/default-java/jre/lib/rt.jar:/home/mjw3/Documents/CS 490/WordCount/target/classes:/home/mjw3/.m2/repository/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar:/home/mjw3/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar:/home/mjw3/.m2/repository/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar:/home/mjw3/.m2/repository/com/sun/jersey/jersey-json/1.8/jersey-json-1.8.jar:/home/mjw3/.m2/repository/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar:/home/mjw3/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/mjw3/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar:/home/mjw3/.m2/repository/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar:/home/mjw3/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/home/mjw3/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/mjw3/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.7.1/jackson-core-asl-1.7.1.jar:/home/mjw3/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.7.1/jackson-jaxrs-1.7.1.jar:/home/mjw3/.m2/repository/org/codehaus/jackson/jackson-xc/1.7.1/jackson-xc-1.7.1.jar:/home/mjw3/.m2/repository/com/sun/jersey/jersey-server/1.8/jersey-server-1.8.jar:/home/mjw3/.m2/repository/asm/asm/3.1/asm-3.1.jar:/home/mjw3/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar:/home/mjw3/.m2/repository/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar:/home/mjw3/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/mjw3/.m2/repository/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar:/home/mjw3/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/home/mjw3/.m2/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.jar:/home/mjw3/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar:/home/mjw3/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/mjw3/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/mjw3/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/home/mjw3/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/home/mjw3/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar:/home/mjw3/.m2/repository/commons-net/commons-net/1.4.1/commons-net-1.4.1.jar:/home/mjw3/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/home/mjw3/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/home/mjw3/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/home/mjw3/.m2/repository/tomcat/jasper-runtime/5.5.12/jasper-runtime-5.5.12.jar:/home/mjw3/.m2/repository/tomcat/jasper-compiler/5.5.12/jasper-compiler-5.5.12.jar:/home/mjw3/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar:/home/mjw3/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar:/home/mjw3/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar:/home/mjw3/.m2/repository/ant/ant/1.6.5/ant-1.6.5.jar:/home/mjw3/.m2/repository/commons-el/commons-el/1.0/commons-el-1.0.jar:/home/mjw3/.m2/repository/net/java/dev/jets3t/jets3t/0.6.1/jets3t-0.6.1.jar:/home/mjw3/.m2/repository/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar:/home/mjw3/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/mjw3/.m2/repository/org/eclipse/jdt/core/3.1.1/core-3.1.1.jar:/home/mjw3/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.8/jackson-mapper-asl-1.8.8.jar:/home/mjw3/.m2/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar" com.wordcount.WordCount input output
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.util.NativeCodeLoader <clinit>
+WARNING: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.io.compress.snappy.LoadSnappy <clinit>
+WARNING: Snappy native library not loaded
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local236574082_0001
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.LocalJobRunner$Job run
+INFO: Waiting for map tasks
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable run
+INFO: Starting task: attempt_local236574082_0001_m_000000_0
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.util.ProcessTree isSetsidSupported
+INFO: setsid exited with exit code 0
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@45b38151
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask runNewMapper
+INFO: Processing split: file:/home/mjw3/Documents/CS 490/WordCount/input:0+33554432
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable run
+INFO: Starting task: attempt_local236574082_0001_m_000001_0
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@21553ec6
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask runNewMapper
+INFO: Processing split: file:/home/mjw3/Documents/CS 490/WordCount/input:33554432+33554432
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable run
+INFO: Starting task: attempt_local236574082_0001_m_000002_0
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@2fa655f7
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask runNewMapper
+INFO: Processing split: file:/home/mjw3/Documents/CS 490/WordCount/input:67108864+33554432
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable run
+INFO: Starting task: attempt_local236574082_0001_m_000003_0
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@99bebc1
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask runNewMapper
+INFO: Processing split: file:/home/mjw3/Documents/CS 490/WordCount/input:100663296+33554432
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable run
+INFO: Starting task: attempt_local236574082_0001_m_000004_0
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@7881b7a8
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask runNewMapper
+INFO: Processing split: file:/home/mjw3/Documents/CS 490/WordCount/input:134217728+33554432
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.LocalJobRunner$Job run
+INFO: Map task executor complete.
+Jun 10, 2018 11:15:54 AM org.apache.hadoop.mapred.LocalJobRunner$Job run
+WARNING: job_local236574082_0001
+java.lang.Exception: java.io.IOException: Illegal partition for 1 (1)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
+Caused by: java.io.IOException: Illegal partition for 1 (1)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1078)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:690)
+	at org.apache.hadoop.mapreduce.TaskInputOutputContext.write(TaskInputOutputContext.java:80)
+	at com.wordcount.WordCount$TokenizerMapper.map(WordCount.java:30)
+	at com.wordcount.WordCount$TokenizerMapper.map(WordCount.java:19)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jun 10, 2018 11:15:55 AM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 0% reduce 0%
+Jun 10, 2018 11:15:55 AM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local236574082_0001
+Jun 10, 2018 11:15:55 AM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 0
+
+Process finished with exit code 1
+

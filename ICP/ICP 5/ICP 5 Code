@@ -1,0 +1,30 @@
+** PART ONE **
+
+create table petrol (distributer_id STRING, distributer_name STRING, amt_IN STRING, amy_OUT STRING, vol_IN INT, vol_OUT INT, year INT)  row  format delimited fields terminated by ',' stored as textfile;
+load data local inpath '/home/cloudera/Desktop/petrol.txt'  into table petrol;
+
+SELECT distributer_name, SUM(vol_OUT) FROM petrol GROUP BY distributer_name;
+SELECT distributer_id, vol_OUT FROM petrol order by vol_OUT desc limit 10;
+SELECT distributer_id, vol_OUT FROM petrol order by vol_OUT limit 10;
+
+SELECT distributer_name, year, (vol_IN-vol_OUT) FROM petrol WHERE (vol_IN-vol_OUT)>500;
+
+-------------------------------------------
+** PART TWO **
+
+create table olympic (athlete STRING, age INT, country STRING, year STRING, closing STRING, sport STRING, gold INT, silver INT, bronze INT, total INT) row format delimited fields terminated by '\t' stored as textfile;
+load data local inpath '/home/cloudera/Downloads/olympic_data.csv' into table olympic;
+
+select country, SUM(total) from olympic where sport = "Swimming" GROUP BY country limit 10;
+select year, SUM(total) from olympic where country = "India" GROUP BY year limit 10;
+select country, SUM(total) from olympic GROUP BY country limit 10;
+select country, SUM(gold) from olympic GROUP BY country limit 10;
+
+SELECT country, year FROM olympic WHERE sport = "Shooting" AND total>0 ORDER BY year limit 10;
+--------------------------
+** PART THREE **
+
+create external table petrolTwo (distributer_id STRING, amt_IN STRING, amy_OUT STRING, vol_IN INT, vol_OUT INT, year INT) partitioned by (distributer_name String) location '/petrol';
+set hive.exec.dynamic.partition.mode=nonstrict;
+INSERT OVERWRITE TABLE petrolTwo PARTITION (distributer_name) select distributer_id, amt_IN, amy_OUT, vol_IN, vol_OUT, year, distributer_name FROM petrol;
+SELECT * FROM petrol INNER JOIN petrolTwo ON  petrol.distributer_id = petrolTwo.distributer_id limit 10;

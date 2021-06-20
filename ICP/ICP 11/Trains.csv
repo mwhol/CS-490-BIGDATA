@@ -1,0 +1,13 @@
+station_id,name,lat,long,dockcount,landmark,installation
+27,Mountain View City Hall,37.389218,-122.081896,15,Mountain View,8/16/2013
+28,Mountain View Caltrain Station,37.394358,-122.076713,23,Mountain View,8/15/2013
+29,San Antonio Caltrain Station,37.40694,-122.106758,23,Mountain View,8/15/2013
+30,Evelyn Park and Ride,37.390277,-122.066553,15,Mountain View,8/16/2013
+31,San Antonio Shopping Center,37.400443,-122.108338,15,Mountain View,12/31/2013
+32,Castro Street and El Camino Real,37.385956,-122.083678,11,Mountain View,12/31/2013
+33,Rengstorff Avenue / California Street,37.400241,-122.099076,15,Mountain View,8/16/2013
+34,Palo Alto Caltrain Station,37.443988,-122.164759,23,Palo Alto,8/14/2013
+35,University and Emerson,37.444521,-122.163093,11,Palo Alto,8/15/2013
+36,California Ave Caltrain Station,37.429082,-122.142805,15,Palo Alto,8/14/2013
+37,Cowper at University,37.448598,-122.159504,11,Palo Alto,8/14/2013
+38,Park at Olive,37.4256839,-122.1377775,15,Palo Alto,8/14/2013

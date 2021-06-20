@@ -1,0 +1,163 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":3,
+    "params":{
+      "sort":"Category desc",
+      "debugQuery":"true",
+      "indent":"true",
+      "q":"Minimum\\ Qualifications:ba*",
+      "wt":"json"}},
+  "response":{"numFound":1046,"start":0,"docs":[
+      {
+        "Company":"Google",
+        "Title":"Technical Writer, University Graduate",
+        "Category":"Technical Writing",
+        "Location":"Kirkland, WA, United States",
+        "Responsibilities":"Write technical documentation for our external developer audience, such as API reference docs and developer guides.\nDesign and organize documentation sets for new APIs and developer products.\nEdit, clarify, and proofread documents written by others, and coach non-writers on ways to improve their writing skills.\nSupplement developer documentation with relevant sample code.",
+        "Minimum Qualifications":"BA/BS degree or equivalent practical experience.\nExperience with online publishing or web development, and proficiency in technical writing, product documentation, journalism, or related writing disciplines.\nExperience with code written in Java, C++, Python, and/or JavaScript.\nLegal authorization to work in the United States.",
+        "Preferred Qualifications":"Graduating from BA/BS degree or MA/MS degree in 2018.\nFamiliarity with source code management, build systems and related processes, and the ability to quickly learn and use technology.\nProficiency with HTML, CSS and a UNIX environment.\nAbility to manage multiple competing priorities in a fast-paced, constantly changing environment.",
+        "id":"48",
+        "_version_":1604737935491465218},
+      {
+        "Company":"Google",
+        "Title":"Technical Writer, University Graduate",
+        "Category":"Technical Writing",
+        "Location":"San Francisco, CA, United States",
+        "Responsibilities":"Write technical documentation for our external developer audience, such as API reference docs and developer guides.\nDesign and organize documentation sets for new APIs and developer products.\nEdit, clarify, and proofread documents written by others, and coach non-writers on ways to improve their writing skills.\nSupplement developer documentation with relevant sample code.",
+        "Minimum Qualifications":"BA/BS degree or equivalent practical experience.\nExperience with online publishing or web development, and proficiency in technical writing, product documentation, journalism, or related writing disciplines.\nExperience with code written in Java, C++, Python, and/or JavaScript.\nLegal authorization to work in the United States.",
+        "Preferred Qualifications":"Graduating from BA/BS degree or MA/MS degree in 2018.\nFamiliarity with source code management, build systems and related processes, and the ability to quickly learn and use technology.\nProficiency with HTML, CSS and a UNIX environment.\nAbility to manage multiple competing priorities in a fast-paced, constantly changing environment.",
+        "id":"89",
+        "_version_":1604737935554379778},
+      {
+        "Company":"Google",
+        "Title":"Technical Writer, University Graduate",
+        "Category":"Technical Writing",
+        "Location":"New York, NY, United States",
+        "Responsibilities":"Write technical documentation for our external developer audience, such as API reference docs and developer guides.\nDesign and organize documentation sets for new APIs and developer products.\nEdit, clarify, and proofread documents written by others, and coach non-writers on ways to improve their writing skills.\nSupplement developer documentation with relevant sample code.",
+        "Minimum Qualifications":"BA/BS degree or equivalent practical experience.\nExperience with online publishing or web development, and proficiency in technical writing, product documentation, journalism, or related writing disciplines.\nExperience with code written in Java, C++, Python, and/or JavaScript.\nLegal authorization to work in the United States.",
+        "Preferred Qualifications":"Graduating from BA/BS degree or MA/MS degree in 2018.\nFamiliarity with source code management, build systems and related processes, and the ability to quickly learn and use technology.\nProficiency with HTML, CSS and a UNIX environment.\nAbility to manage multiple competing priorities in a fast-paced, constantly changing environment.",
+        "id":"127",
+        "_version_":1604737935584788481},
+      {
+        "Company":"Google",
+        "Title":"Technical Writer, University Graduate",
+        "Category":"Technical Writing",
+        "Location":"Mountain View, CA, United States",
+        "Responsibilities":"Write technical documentation for our external developer audience, such as API reference docs and developer guides.\nDesign and organize documentation sets for new APIs and developer products.\nEdit, clarify, and proofread documents written by others, and coach non-writers on ways to improve their writing skills.\nSupplement developer documentation with relevant sample code.",
+        "Minimum Qualifications":"BA/BS degree or equivalent practical experience.\nExperience with online publishing or web development, and proficiency in technical writing, product documentation, journalism, or related writing disciplines.\nExperience with code written in Java, C++, Python, and/or JavaScript.\nLegal authorization to work in the United States.",
+        "Preferred Qualifications":"Graduating from BA/BS degree or MA/MS degree in 2018.\nFamiliarity with source code management, build systems and related processes, and the ability to quickly learn and use technology.\nProficiency with HTML, CSS and a UNIX environment.\nAbility to manage multiple competing priorities in a fast-paced, constantly changing environment.",
+        "id":"175",
+        "_version_":1604737935603662850},
+      {
+        "Company":"Google",
+        "Title":"Technical Writer, University Graduate",
+        "Category":"Technical Writing",
+        "Location":"Seattle, WA, United States",
+        "Responsibilities":"Write technical documentation for our external developer audience, such as API reference docs and developer guides.\nDesign and organize documentation sets for new APIs and developer products.\nEdit, clarify, and proofread documents written by others, and coach non-writers on ways to improve their writing skills.\nSupplement developer documentation with relevant sample code.",
+        "Minimum Qualifications":"BA/BS degree or equivalent practical experience.\nExperience with online publishing or web development, and proficiency in technical writing, product documentation, journalism, or related writing disciplines.\nExperience with code written in Java, C++, Python, and/or JavaScript.\nLegal authorization to work in the United States.",
+        "Preferred Qualifications":"Graduating from BA/BS degree or MA/MS degree in 2018.\nFamiliarity with source code management, build systems and related processes, and the ability to quickly learn and use technology.\nProficiency with HTML, CSS and a UNIX environment.\nAbility to manage multiple competing priorities in a fast-paced, constantly changing environment.",
+        "id":"216",
+        "_version_":1604737935621488640},
+      {
+        "Company":"Google",
+        "Title":"Cluster Manager, Security (English, Chinese)",
+        "Category":"Real Estate & Workplace Services",
+        "Location":"Hong Kong",
+        "Responsibilities":"Assist with implementing performance of corporate security standards, policies and practices; may manage the daily operations of vendors providing services including security, training, protective services and risk assessment.\nCollaborate with other groups within Google (HR, Legal, etc.) and outside of Google (Emergency Services: fire, police, EMS, Departments of Environmental Health, etc.) as they relate to daily operations.\nPerform data analysis and creates benchmarking to support risk assessments and threat identification; create and present travel briefings as they relate to crime and health risks in specified geographical regions.\nPartner with Facilities and other Google business units to identify security deficiencies, and develop customized policies and procedures to gain compliance with regulations internal and external to Google.\nManage our Google Security Guard Force and vendor staff to respond to emergencies, support planned and unplanned operations, and support events and special activities as needed.",
+        "Minimum Qualifications":"BA/BS degree or equivalent practical experience.\n10 years of experience managing security operations.\nExperience working with vendors and managing a contracted guard force.\nAbility to speak and write in Chinese (Mandarin) and English fluently and idiomatically.",
+        "Preferred Qualifications":"Experience conducting investigations including criminal, human resources, and safety incidents. Experience with standard software applications for communications, productivity and presentation.\nExperience with security technologies including CCTV, Access Control, and Incident Management Systems.\nProven track record in managing security operations and security personnel and delivering high quality, customer-oriented security programs.\nDetail oriented with strong written and verbal communication skills, with the ability to multitask in a fast-paced environment.\nHigh ethical standards with proven ability to handle highly confidential and sensitive information; excellent judgment, discretion and diplomacy.",
+        "id":"1223",
+        "_version_":1604737936279994369},
+      {
+        "Company":"Google",
+        "Title":"Cluster Manager, Security (English, Chinese)",
+        "Category":"Real Estate & Workplace Services",
+        "Location":"Xinyi District, Taiwan",
+        "Responsibilities":"Assist with implementing performance of corporate security standards, policies and practices; may manage the daily operations of vendors providing services including security, training, protective services and risk assessment.\nCollaborate with other groups within Google (HR, Legal, etc.) and outside of Google (Emergency Services: fire, police, EMS, Departments of Environmental Health, etc.) as they relate to daily operations.\nPerform data analysis and creates benchmarking to support risk assessments and threat identification; create and present travel briefings as they relate to crime and health risks in specified geographical regions.\nPartner with Facilities and other Google business units to identify security deficiencies, and develop customized policies and procedures to gain compliance with regulations internal and external to Google.\nManage our Google Security Guard Force and vendor staff to respond to emergencies, support planned and unplanned operations, and support events and special activities as needed.",
+        "Minimum Qualifications":"BA/BS degree or equivalent practical experience.\n10 years of experience managing security operations.\nExperience working with vendors and managing a contracted guard force.\nAbility to speak and write in Chinese (Mandarin) and English fluently and idiomatically.",
+        "Preferred Qualifications":"Experience conducting investigations including criminal, human resources, and safety incidents. Experience with standard software applications for communications, productivity and presentation.\nExperience with security technologies including CCTV, Access Control, and Incident Management Systems.\nProven track record in managing security operations and security personnel and delivering high quality, customer-oriented security programs.\nDetail oriented with strong written and verbal communication skills, with the ability to multitask in a fast-paced environment.\nHigh ethical standards with proven ability to handle highly confidential and sensitive information; excellent judgment, discretion and diplomacy.",
+        "id":"1224",
+        "_version_":1604737936292577280},
+      {
+        "Company":"Google",
+        "Title":"Campus Manager (English and Mandarin)",
+        "Category":"Real Estate & Workplace Services",
+        "Location":"Xinyi District, Taiwan",
+        "Responsibilities":"Assist with implementing performance of corporate security standards, policies and practices; may manage the daily operations of vendors providing services including security, training, protective services and risk assessment.\nCollaborate with other groups within Google (HR, Legal, etc.) and outside of Google (Emergency Services: fire, police, EMS, Departments of Environmental Health, etc.) as they relate to daily operations.\nPerform data analysis and creates benchmarking to support risk assessments and threat identification; create and present travel briefings as they relate to crime and health risks in specified geographical regions.\nPartner with Facilities and other Google business units to identify security deficiencies, and develop customized policies and procedures to gain compliance with regulations internal and external to Google.\nManage our Google Security Guard Force and vendor staff to respond to emergencies, support planned and unplanned operations, and support events and special activities as needed.",
+        "Minimum Qualifications":"Bachelor's degree or equivalent practical experience.\n5 years of experience managing security operations.\nExperience of working with vendors and managing a contracted guard force.\nAbility to speak and write both English and Chinese (Mandarin).",
+        "Preferred Qualifications":"Experience with security technologies including CCTV, Access Control, and Incident Management Systems.\nExperience conducting investigations including criminal, human resources, and safety incidents.\nExperience with standard software applications for communications, productivity and presentation.\nProven track record in managing security operations and security personnel and delivering high quality, customer-oriented security programs.\nDetail oriented with strong written and verbal communication skills, with the ability to multitask in a fast paced environment.\nHigh ethical standards with proven ability to handle highly confidential and sensitive information; excellent judgment, discretion and diplomacy.",
+        "id":"1225",
+        "_version_":1604737936292577281},
+      {
+        "Company":"Google",
+        "Title":"Real Estate Portfolio Administrator",
+        "Category":"Real Estate & Workplace Services",
+        "Location":"Sunnyvale, CA, United States",
+        "Responsibilities":"Manage the payment and collection of rent, analyze variances, review critical dates and establish portfolio reporting requirements and develop procedures to provide thorough real estate transaction support.\nIdentify and respond to critical cross-functional projects; drive projects to completion by gathering requirements, managing schedule, budget, priorities, and communicating thoroughly with stakeholders\nPartner with vendor to ensure quality abstraction of pertinent financial and legal points of all lease and real estate purchase documents.\nDrive and implement continual improvements to database, portfolio reporting, and workflow; pro-actively seek ways to improve operational processes.\nManage vendor relationships according to scope and contractual obligations. Effectively manage relationship to scale with business needs and industry growth.",
+        "Minimum Qualifications":"BA/BS or equivalent practical experience.\n5 years of work experience in real estate, lease administration, finance or a related field.",
+        "Preferred Qualifications":"Vendor management experience\nProject management experience combined with proven organizational skills and thorough attention to detail.\nExcellent analytical skills, combined with impeccable business judgment and inclusive decision-making practices.\nProven ability to work in a cross-functional, fast-paced environment, and lead and drive complex operational initiatives to resolution.\nAbility to identify, develop, and implement process/system improvements.\nExceptional relationship management and facilitation capabilities, and outstanding verbal and written communication skills; able to explain challenging issues and complex concepts to coworkers at all levels and in offices across the globe.",
+        "id":"1226",
+        "_version_":1604737936293625856},
+      {
+        "Company":"YouTube",
+        "Title":"Real Estate and Workplace Services (REWS) Business Partner",
+        "Category":"Real Estate & Workplace Services",
+        "Location":"San Bruno, CA, United States",
+        "Responsibilities":"Thrive amidst ambiguity and be comfortable navigating shifting priorities and are able to re-prioritize and adapt to the business's changing needs\nFacilitate decisions that consider both near-term goals and long term strategy.\nBuild strong relationships and educate Googlers about REWS priorities and objectives through timely, relevant, thorough and tailored communication that demonstrate an ability to balance the needs of the business with solutions that REWS can provide\nLeverage REWS partner subject matter expertise and your personal domain knowledge (including real estate, facilities operations, security, safety, employee perks, etc.) to evaluate and solve problems.\nSupport the creation and implementation of programs that impact and add value to the REWS organization as a whole. Work with teammates towards common goals, share best practices, and build REWS’ ability to grow as a learning organization.",
+        "Minimum Qualifications":"Bachelor's degree or equivalent practical experience.\n5 years of service experience with an emphasis on facilities, hospitality, corporate services, property management or equivalent office management experience.",
+        "Preferred Qualifications":"Solid strategic and operational client relationship management, facilities management, workplace services or hospitality experience and the ability to work in a collaborative environment.\nHighly organized and detail-oriented.\nAbility to think 'out of the box' and bring creative, nonstandard, and innovative solutions to the table.\nDemonstrated ability to handle multiple requests, while displaying excellent communication skills, both written and verbal, while working in a fast-paced office environment.",
+        "id":"1227",
+        "_version_":1604737936293625857}]
+  },
+  "debug":{
+    "rawquerystring":"Minimum\\ Qualifications:ba*",
+    "querystring":"Minimum\\ Qualifications:ba*",
+    "parsedquery":"Minimum Qualifications:ba*",
+    "parsedquery_toString":"Minimum Qualifications:ba*",
+    "explain":{
+      "48":"\n1.0 = (MATCH) ConstantScore(Minimum Qualifications:ba*), product of:\n  1.0 = boost\n  1.0 = queryNorm\n",
+      "89":"\n1.0 = (MATCH) ConstantScore(Minimum Qualifications:ba*), product of:\n  1.0 = boost\n  1.0 = queryNorm\n",
+      "127":"\n1.0 = (MATCH) ConstantScore(Minimum Qualifications:ba*), product of:\n  1.0 = boost\n  1.0 = queryNorm\n",
+      "175":"\n1.0 = (MATCH) ConstantScore(Minimum Qualifications:ba*), product of:\n  1.0 = boost\n  1.0 = queryNorm\n",
+      "216":"\n1.0 = (MATCH) ConstantScore(Minimum Qualifications:ba*), product of:\n  1.0 = boost\n  1.0 = queryNorm\n",
+      "1223":"\n1.0 = (MATCH) ConstantScore(Minimum Qualifications:ba*), product of:\n  1.0 = boost\n  1.0 = queryNorm\n",
+      "1224":"\n1.0 = (MATCH) ConstantScore(Minimum Qualifications:ba*), product of:\n  1.0 = boost\n  1.0 = queryNorm\n",
+      "1225":"\n1.0 = (MATCH) ConstantScore(Minimum Qualifications:ba*), product of:\n  1.0 = boost\n  1.0 = queryNorm\n",
+      "1226":"\n1.0 = (MATCH) ConstantScore(Minimum Qualifications:ba*), product of:\n  1.0 = boost\n  1.0 = queryNorm\n",
+      "1227":"\n1.0 = (MATCH) ConstantScore(Minimum Qualifications:ba*), product of:\n  1.0 = boost\n  1.0 = queryNorm\n"},
+    "QParser":"LuceneQParser",
+    "timing":{
+      "time":3.0,
+      "prepare":{
+        "time":0.0,
+        "query":{
+          "time":0.0},
+        "facet":{
+          "time":0.0},
+        "mlt":{
+          "time":0.0},
+        "highlight":{
+          "time":0.0},
+        "stats":{
+          "time":0.0},
+        "expand":{
+          "time":0.0},
+        "debug":{
+          "time":0.0}},
+      "process":{
+        "time":2.0,
+        "query":{
+          "time":0.0},
+        "facet":{
+          "time":0.0},
+        "mlt":{
+          "time":0.0},
+        "highlight":{
+          "time":0.0},
+        "stats":{
+          "time":0.0},
+        "expand":{
+          "time":0.0},
+        "debug":{
+          "time":2.0}}}}}

@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">14</int>
+  <lst name="params">
+    <str name="debugQuery">true</str>
+    <str name="indent">true</str>
+    <str name="q">Category:"sales" AND NOT Location:india AND _query_:"{!dismax qf=Responsibilities}infrastructure experience"</str>
+    <str name="wt">xml</str>
+  </lst>
+</lst>
+<result name="response" numFound="41" start="0">
+  <doc>
+    <str name="Company">Google</str>
+    <str name="Title">Inside Sales Representative, Google Cloud</str>
+    <str name="Category">Sales Operations</str>
+    <str name="Location">Singapore</str>
+    <str name="Responsibilities">Work towards strategic goals while prioritizing and delivering an outstanding experience to the Google Cloud customer base.
+Analyze data trends and client performance, prepare and conduct presentations, in addition to effective communication with customers via various communication channels.
+Manage accounts to provide support, involving cross-functional teams as needed.</str>
+    <str name="Minimum Qualifications">BA/BS degree or equivalent practical experience.
+2 years of experience in a sales role working with Software/Platform/Infrastructure-as-a-Service (SaaS/PaaS/IaaS).</str>
+    <str name="Preferred Qualifications">4 years of experience with online sales at scale and building scalable selling programs.
+4 years of experience with CRM systems (e.g. Salesforce.com).
+Understanding of the technology market with knowledge in cloud computing.</str>
+    <str name="id">561</str>
+    <long name="_version_">1604737935815475202</long></doc>
+  <doc>
+    <str name="Company">Google</str>
+    <str name="Title">Product Specialist, Google Cloud (English)</str>
+    <str name="Category">Sales Operations</str>
+    <str name="Location">Paris, France</str>
+    <str name="Responsibilities">Work as part of the Sales team to identify and qualify Platform opportunities and determine if Google Cloud Platform is right for them. Identify business and technical requirements, conduct full technical discovery and architect client solutions to meet gathered requirements.
+Take responsibility for leading the technical project including such activities as technology advocacy, supporting bid responses, product and solution briefings, proof-of-concept work, and the coordination of supporting technical resources.
+Prepare and deliver product messaging in an effort to highlight Google Cloud Platform value proposition using techniques to include whiteboard and slide presentations, product demonstrations, white papers, trial management and RFI response documents.
+Make recommendations on integration strategies, enterprise architectures, platforms and application infrastructure required to successfully implement a complete solution providing best practice advice to customers to optimize Google Cloud Platform effectiveness.
+Travel regularly in EMEA for meetings, technical reviews and onsite delivery activities.</str>
+    <str name="Minimum Qualifications">BA/BS degree in Computer Science or a related software engineering field, or equivalent practical experience.
+Experience working across cloud computing (infrastructure, storage, platforms and data), as well as cloud market, competitive dynamics and customer buying behavior.
+Experience in data and Information Lifecycle Management relating to SAP portfolio and technologies.
+Ability to speak and write in English fluently and idiomatically.</str>
+    <str name="Preferred Qualifications">Master's degree in Computer Science or other relevant technical field.
+Experience with Big Data, Platform-as-a-Service (PaaS) and Infrastructure-as-a-Service (IaaS) technologies.
+Experience serving as Customer Service Operative or Technical Sales Engineer in a cloud computing environment or equivalent experience in a customer facing role (including working as a member of a professional services or systems engineering team).
+Experience and knowledge of SAP technologies (SAP Business Suite, S/4HANA, SAP Business Warehouse, SAP Hybris, SAP Business Objects, Sybase, Leonardo suite etc.) and their architecture and infrastructure needs.
+Experience with SAP HANA, including sizing, disaster recovery, multi tenancy concepts, scale-out architectures and data tiering.
+Understanding of SAP cloud offerings with focus on HEC and SAP Cloud Platform. Ability to quickly learn, understand and work with new emerging technologies, methodologies, and solutions in the cloud technology space.</str>
+    <str name="id">345</str>
+    <long name="_version_">1604737935698034689</long></doc>
+  <doc>
+    <str name="Company">Google</str>
+    <str name="Title">Product Specialist, Google Cloud (English)</str>
+    <str name="Category">Sales Operations</str>
+    <str name="Location">Frankfurt, Germany</str>
+    <str name="Responsibilities">Work as part of the Sales team to identify and qualify Platform opportunities and determine if Google Cloud Platform is right for them. Identify business and technical requirements, conduct full technical discovery and architect client solutions to meet gathered requirements.
+Take responsibility for leading the technical project including such activities as technology advocacy, supporting bid responses, product and solution briefings, proof-of-concept work, and the coordination of supporting technical resources.
+Prepare and deliver product messaging in an effort to highlight Google Cloud Platform value proposition using techniques to include whiteboard and slide presentations, product demonstrations, white papers, trial management and RFI response documents.
+Make recommendations on integration strategies, enterprise architectures, platforms and application infrastructure required to successfully implement a complete solution providing best practice advice to customers to optimize Google Cloud Platform effectiveness.
+Travel regularly in EMEA for meetings, technical reviews and onsite delivery activities.</str>
+    <str name="Minimum Qualifications">BA/BS degree in Computer Science or a related software engineering field, or equivalent practical experience.
+Experience working across cloud computing (infrastructure, storage, platforms and data), as well as cloud market, competitive dynamics and customer buying behavior.
+Experience in data and Information Lifecycle Management relating to SAP portfolio and technologies.
+Ability to speak and write in English fluently and idiomatically.</str>
+    <str name="Preferred Qualifications">Master's degree in Computer Science or other relevant technical field.
+Experience with Big Data, Platform-as-a-Service (PaaS) and Infrastructure-as-a-Service (IaaS) technologies.
+Experience serving as Customer Service Operative or Technical Sales Engineer in a cloud computing environment or equivalent experience in a customer facing role (including working as a member of a professional services or systems engineering team).
+Experience and knowledge of SAP technologies (SAP Business Suite, S/4HANA, SAP Business Warehouse, SAP Hybris, SAP Business Objects, Sybase, Leonardo suite etc.) and their architecture and infrastructure needs.
+Experience with SAP HANA, including sizing, disaster recovery, multi tenancy concepts, scale-out architectures and data tiering.
+Understanding of SAP cloud offerings with focus on HEC and SAP Cloud Platform. Ability to quickly learn, understand and work with new emerging technologies, methodologies, and solutions in the cloud technology space.</str>
+    <str name="id">404</str>
+    <long name="_version_">1604737935722151937</long></doc>
+  <doc>
+    <str name="Company">Google</str>
+    <str name="Title">Product Specialist, Google Cloud (English)</str>
+    <str name="Category">Sales Operations</str>
+    <str name="Location">München, Germany</str>
+    <str name="Responsibilities">Work as part of the Sales team to identify and qualify Platform opportunities and determine if Google Cloud Platform is right for them. Identify business and technical requirements, conduct full technical discovery and architect client solutions to meet gathered requirements.
+Take responsibility for leading the technical project including such activities as technology advocacy, supporting bid responses, product and solution briefings, proof-of-concept work, and the coordination of supporting technical resources.
+Prepare and deliver product messaging in an effort to highlight Google Cloud Platform value proposition using techniques to include whiteboard and slide presentations, product demonstrations, white papers, trial management and RFI response documents.
+Make recommendations on integration strategies, enterprise architectures, platforms and application infrastructure required to successfully implement a complete solution providing best practice advice to customers to optimize Google Cloud Platform effectiveness.
+Travel regularly in EMEA for meetings, technical reviews and onsite delivery activities.</str>
+    <str name="Minimum Qualifications">BA/BS degree in Computer Science or a related software engineering field, or equivalent practical experience.
+Experience working across cloud computing (infrastructure, storage, platforms and data), as well as cloud market, competitive dynamics and customer buying behavior.
+Experience in data and Information Lifecycle Management relating to SAP portfolio and technologies.
+Ability to speak and write in English fluently and idiomatically.</str>
+    <str name="Preferred Qualifications">Master's degree in Computer Science or other relevant technical field.
+Experience with Big Data, Platform-as-a-Service (PaaS) and Infrastructure-as-a-Service (IaaS) technologies.
+Experience serving as Customer Service Operative or Technical Sales Engineer in a cloud computing environment or equivalent experience in a customer facing role (including working as a member of a professional services or systems engineering team).
+Experience and knowledge of SAP technologies (SAP Business Suite, S/4HANA, SAP Business Warehouse, SAP Hybris, SAP Business Objects, Sybase, Leonardo suite etc.) and their architecture and infrastructure needs.
+Experience with SAP HANA, including sizing, disaster recovery, multi tenancy concepts, scale-out architectures and data tiering.
+Understanding of SAP cloud offerings with focus on HEC and SAP Cloud Platform. Ability to quickly learn, understand and work with new emerging technologies, methodologies, and solutions in the cloud technology space.</str>
+    <str name="id">494</str>
+    <long name="_version_">1604737935767240705</long></doc>
+  <doc>
+    <str name="Company">Google</str>
+    <str name="Title">Product Specialist, Google Cloud (English)</str>
+    <str name="Category">Sales Operations</str>
+    <str name="Location">Berlin, Germany</str>
+    <str name="Responsibilities">Work as part of the Sales team to identify and qualify Platform opportunities and determine if Google Cloud Platform is right for them. Identify business and technical requirements, conduct full technical discovery and architect client solutions to meet gathered requirements.
+Take responsibility for leading the technical project including such activities as technology advocacy, supporting bid responses, product and solution briefings, proof-of-concept work, and the coordination of supporting technical resources.
+Prepare and deliver product messaging in an effort to highlight Google Cloud Platform value proposition using techniques to include whiteboard and slide presentations, product demonstrations, white papers, trial management and RFI response documents.
+Make recommendations on integration strategies, enterprise architectures, platforms and application infrastructure required to successfully implement a complete solution providing best practice advice to customers to optimize Google Cloud Platform effectiveness.
+Travel regularly in EMEA for meetings, technical reviews and onsite delivery activities.</str>
+    <str name="Minimum Qualifications">BA/BS degree in Computer Science or a related software engineering field, or equivalent practical experience.
+Experience working across cloud computing (infrastructure, storage, platforms and data), as well as cloud market, competitive dynamics and customer buying behavior.
+Experience in data and Information Lifecycle Management relating to SAP portfolio and technologies.
+Ability to speak and write in English fluently and idiomatically.</str>
+    <str name="Preferred Qualifications">Master's degree in Computer Science or other relevant technical field.
+Experience with Big Data, Platform-as-a-Service (PaaS) and Infrastructure-as-a-Service (IaaS) technologies.
+Experience serving as Customer Service Operative or Technical Sales Engineer in a cloud computing environment or equivalent experience in a customer facing role (including working as a member of a professional services or systems engineering team).
+Experience and knowledge of SAP technologies (SAP Business Suite, S/4HANA, SAP Business Warehouse, SAP Hybris, SAP Business Objects, Sybase, Leonardo suite etc.) and their architecture and infrastructure needs.
+Experience with SAP HANA, including sizing, disaster recovery, multi tenancy concepts, scale-out architectures and data tiering.
+Understanding of SAP cloud offerings with focus on HEC and SAP Cloud Platform. Ability to quickly learn, understand and work with new emerging technologies, methodologies, and solutions in the cloud technology space.</str>
+    <str name="id">496</str>
+    <long name="_version_">1604737935768289281</long></doc>
+  <doc>
+    <str name="Company">Google</str>
+    <str name="Title">Associate Account Strategist (Polish), Google Marketing Solutions Sales</str>
+    <str name="Category">Sales &amp; Account Management</str>
+    <str name="Location">Dublin, Ireland</str>
+    <str name="Responsibilities">Implement creative ways to improve our customer relationships, tailor and share online marketing strategy suggestions, and promote other Google products.
+Communicate with customers proactively via phone and email.
+Provide strategic advice and help our advertisers get the best experience from their investment by working with them in a consultative role.
+Deliver against strategic goals consistently, while prioritizing and delivering an outstanding customer sales experience to Google's advertisers.</str>
+    <str name="Minimum Qualifications">Bachelor's degree or equivalent practical experience.
+Experience or internship experience in sales, customer support, account management, marketing or consulting.
+Ability to speak and write in English and Polish fluently and idiomatically.</str>
+    <str name="Preferred Qualifications">Experience with leading and motivating. Ability to work well with your team and others
+Demonstrated record in managing and customizing experience to a customer base.
+Proven ability to multi-task and manage multiple projects at a time while paying attention to detail.
+Proactive, independent worker who is highly organized and interested in the difference they can make through their individual contribution.
+Interest in working toward strategic goals.</str>
+    <str name="id">453</str>
+    <long name="_version_">1604737935743123457</long></doc>
+  <doc>
+    <str name="Company">Google</str>
+    <str name="Title">Associate Account Strategist (Hungarian), GMS Sales</str>
+    <str name="Category">Sales &amp; Account Management</str>
+    <str name="Location">Dublin, Ireland</str>
+    <str name="Responsibilities">Implement creative ways to improve our customer relationships, tailor and share online marketing strategy suggestions, and promote other Google products.
+Communicate with customers proactively, via phone and email.
+Provide strategic advice and help our advertisers to get the best experience from their advertising investment by working with them in a consultative role.
+Work consistently toward strategic objectives, while prioritizing and delivering an outstanding customer experience for Google's advertisers.</str>
+    <str name="Minimum Qualifications">Bachelor's degree or equivalent practical experience.
+Experience or internship experience in sales, customer support, account management, marketing or consulting.
+Ability to speak and write in English and Hungarian fluently and idiomatically.</str>
+    <str name="Preferred Qualifications">Experience with leading and motivating. Ability to work well with your team and with others.
+Demonstrated record in managing and customizing experience for a customer base.
+Ability to multi-task and to manage multiple projects at a time while paying strict attention to detail.
+Ability to work toward strategic targets.
+Ability to work independently whilst being highly organized and committed to making a difference through individual contribution.</str>
+    <str name="id">595</str>
+    <long name="_version_">1604737935844835328</long></doc>
+  <doc>
+    <str name="Company">Google</str>
+    <str name="Title">Associate Account Strategist (Russian), Global Customer Experience</str>
+    <str name="Category">Sales &amp; Account Management</str>
+    <str name="Location">Wrocław, Poland</str>
+    <str name="Responsibilities">Communicate with customers proactively, via phone and email.
+Provide strategic advice and help customers by working closely with them in a consultative role.
+Implement creative ways to improve our customer relationships. Tailor and share online marketing strategy suggestions, and promote other Google products.
+Deliver against strategic goals consistently, while prioritizing and delivering an outstanding customer sales experience to Google's advertisers.</str>
+    <str name="Minimum Qualifications">BA/BS degree or equivalent practical experience.
+Ability to speak and write in English and Russian fluently and idiomatically.</str>
+    <str name="Preferred Qualifications">Experience or internship experience in sales, customer service, account management, marketing or consulting.
+Ability to multi-task and manage multiple projects at a time while paying strict attention to detail.
+Experience in leading, motivating and working well with others. Demonstrated bias toward teamwork and collaboration.
+Demonstrated experience in managing and customizing experience to a customer base.
+Proactive, independent worker who is highly organized and interested in the difference they can make through their individual contribution.
+Interest in working toward strategic goals.</str>
+    <str name="id">370</str>
+    <long name="_version_">1604737935708520450</long></doc>
+  <doc>
+    <str name="Company">Google</str>
+    <str name="Title">Associate Account Strategist, Global Customer Experience (Ukrainian)</str>
+    <str name="Category">Sales &amp; Account Management</str>
+    <str name="Location">Dublin, Ireland</str>
+    <str name="Responsibilities">Communicate with customers proactively, via phone and email.
+Provide strategic advice and help customers by working closely with them in a consultative role.
+Implement creative ways to improve our customer relationships. Tailor and share online marketing strategy suggestions, and promote other Google products.
+Deliver against strategic goals consistently, while prioritizing and delivering an outstanding customer experience for Google's advertisers.</str>
+    <str name="Minimum Qualifications">BA/BS degree or equivalent practical experience.
+Work experience in a graduate or Intern role.
+Ability to speak and write in English and Ukrainian fluently and idiomatically.</str>
+    <str name="Preferred Qualifications">Experience or internship experience in sales, customer service, account management, marketing or consulting.
+Experience in leading, motivating and working well with others. Demonstrated bias toward teamwork and collaboration.
+Demonstrated record in managing and customizing experience to a customer base.
+Interest in working toward strategic goals.
+Proactive, independent worker who is highly organized and interested in the difference they can make through their individual contribution.
+Ability to multi-task and to manage multiple projects at a time while paying strict attention to detail.</str>
+    <str name="id">372</str>
+    <long name="_version_">1604737935709569024</long></doc>
+  <doc>
+    <str name="Company">Google</str>
+    <str name="Title">Associate Account Strategist, Global Customer Services (French)</str>
+    <str name="Category">Sales &amp; Account Management</str>
+    <str name="Location">Dublin, Ireland</str>
+    <str name="Responsibilities">Prioritize and deliver outstanding customer service experience to Google's advertisers, publishers, and/or users.
+Manage customer inquiries by phone, e-mail, and/or live chat.
+Implement creative ways to improve our customer and business relationships
+Provide strategic and consultative advice and help solve technical issues.</str>
+    <str name="Minimum Qualifications">BA/BS degree or equivalent practical experience.
+Ability to speak and write in English and French fluently and idiomatically.</str>
+    <str name="Preferred Qualifications">Experience in sales, account management, marketing or consulting.
+Experience in troubleshooting and/or resolving customers queries; customer service.
+Demonstrated ability to multi-task and manage multiple projects with attention to detail.
+Ability to lead and/or motivate others around you.</str>
+    <str name="id">421</str>
+    <long name="_version_">1604737935730540544</long></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">Category:"sales" AND NOT Location:india AND _query_:"{!dismax qf=Responsibilities}infrastructure experience"</str>
+  <str name="querystring">Category:"sales" AND NOT Location:india AND _query_:"{!dismax qf=Responsibilities}infrastructure experience"</str>
+  <str name="parsedquery">+Category:sales -Location:india +((+(DisjunctionMaxQuery((Responsibilities:infrastructure)) DisjunctionMaxQuery((Responsibilities:experience))) ())/no_coord)</str>
+  <str name="parsedquery_toString">+Category:sales -Location:india +(+((Responsibilities:infrastructure) (Responsibilities:experience)) ())</str>
+  <lst name="explain">
+    <str name="561">
+1.0082953 = (MATCH) sum of:
+  0.90761155 = (MATCH) weight(Category:sales in 560) [DefaultSimilarity], result of:
+    0.90761155 = score(doc=560,freq=1.0), product of:
+      0.5126696 = queryWeight, product of:
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.18099025 = queryNorm
+      1.7703635 = fieldWeight in 560, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.625 = fieldNorm(doc=560)
+  0.10068377 = (MATCH) sum of:
+    0.10068377 = (MATCH) product of:
+      0.20136754 = (MATCH) sum of:
+        0.20136754 = (MATCH) weight(Responsibilities:experience in 560) [DefaultSimilarity], result of:
+          0.20136754 = score(doc=560,freq=1.0), product of:
+            0.5399671 = queryWeight, product of:
+              2.9834044 = idf(docFreq=171, maxDocs=1250)
+              0.18099025 = queryNorm
+            0.37292555 = fieldWeight in 560, product of:
+              1.0 = tf(freq=1.0), with freq of:
+                1.0 = termFreq=1.0
+              2.9834044 = idf(docFreq=171, maxDocs=1250)
+              0.125 = fieldNorm(doc=560)
+      0.5 = coord(1/2)
+</str>
+    <str name="345">
+1.003785 = (MATCH) sum of:
+  0.90761155 = (MATCH) weight(Category:sales in 344) [DefaultSimilarity], result of:
+    0.90761155 = score(doc=344,freq=1.0), product of:
+      0.5126696 = queryWeight, product of:
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.18099025 = queryNorm
+      1.7703635 = fieldWeight in 344, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.625 = fieldNorm(doc=344)
+  0.09617349 = (MATCH) sum of:
+    0.09617349 = (MATCH) product of:
+      0.19234698 = (MATCH) sum of:
+        0.19234698 = (MATCH) weight(Responsibilities:infrastructure in 344) [DefaultSimilarity], result of:
+          0.19234698 = score(doc=344,freq=1.0), product of:
+            0.66753685 = queryWeight, product of:
+              3.6882477 = idf(docFreq=84, maxDocs=1250)
+              0.18099025 = queryNorm
+            0.28814435 = fieldWeight in 344, product of:
+              1.0 = tf(freq=1.0), with freq of:
+                1.0 = termFreq=1.0
+              3.6882477 = idf(docFreq=84, maxDocs=1250)
+              0.078125 = fieldNorm(doc=344)
+      0.5 = coord(1/2)
+</str>
+    <str name="404">
+1.003785 = (MATCH) sum of:
+  0.90761155 = (MATCH) weight(Category:sales in 403) [DefaultSimilarity], result of:
+    0.90761155 = score(doc=403,freq=1.0), product of:
+      0.5126696 = queryWeight, product of:
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.18099025 = queryNorm
+      1.7703635 = fieldWeight in 403, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.625 = fieldNorm(doc=403)
+  0.09617349 = (MATCH) sum of:
+    0.09617349 = (MATCH) product of:
+      0.19234698 = (MATCH) sum of:
+        0.19234698 = (MATCH) weight(Responsibilities:infrastructure in 403) [DefaultSimilarity], result of:
+          0.19234698 = score(doc=403,freq=1.0), product of:
+            0.66753685 = queryWeight, product of:
+              3.6882477 = idf(docFreq=84, maxDocs=1250)
+              0.18099025 = queryNorm
+            0.28814435 = fieldWeight in 403, product of:
+              1.0 = tf(freq=1.0), with freq of:
+                1.0 = termFreq=1.0
+              3.6882477 = idf(docFreq=84, maxDocs=1250)
+              0.078125 = fieldNorm(doc=403)
+      0.5 = coord(1/2)
+</str>
+    <str name="494">
+1.003785 = (MATCH) sum of:
+  0.90761155 = (MATCH) weight(Category:sales in 493) [DefaultSimilarity], result of:
+    0.90761155 = score(doc=493,freq=1.0), product of:
+      0.5126696 = queryWeight, product of:
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.18099025 = queryNorm
+      1.7703635 = fieldWeight in 493, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.625 = fieldNorm(doc=493)
+  0.09617349 = (MATCH) sum of:
+    0.09617349 = (MATCH) product of:
+      0.19234698 = (MATCH) sum of:
+        0.19234698 = (MATCH) weight(Responsibilities:infrastructure in 493) [DefaultSimilarity], result of:
+          0.19234698 = score(doc=493,freq=1.0), product of:
+            0.66753685 = queryWeight, product of:
+              3.6882477 = idf(docFreq=84, maxDocs=1250)
+              0.18099025 = queryNorm
+            0.28814435 = fieldWeight in 493, product of:
+              1.0 = tf(freq=1.0), with freq of:
+                1.0 = termFreq=1.0
+              3.6882477 = idf(docFreq=84, maxDocs=1250)
+              0.078125 = fieldNorm(doc=493)
+      0.5 = coord(1/2)
+</str>
+    <str name="496">
+1.003785 = (MATCH) sum of:
+  0.90761155 = (MATCH) weight(Category:sales in 495) [DefaultSimilarity], result of:
+    0.90761155 = score(doc=495,freq=1.0), product of:
+      0.5126696 = queryWeight, product of:
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.18099025 = queryNorm
+      1.7703635 = fieldWeight in 495, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.625 = fieldNorm(doc=495)
+  0.09617349 = (MATCH) sum of:
+    0.09617349 = (MATCH) product of:
+      0.19234698 = (MATCH) sum of:
+        0.19234698 = (MATCH) weight(Responsibilities:infrastructure in 495) [DefaultSimilarity], result of:
+          0.19234698 = score(doc=495,freq=1.0), product of:
+            0.66753685 = queryWeight, product of:
+              3.6882477 = idf(docFreq=84, maxDocs=1250)
+              0.18099025 = queryNorm
+            0.28814435 = fieldWeight in 495, product of:
+              1.0 = tf(freq=1.0), with freq of:
+                1.0 = termFreq=1.0
+              3.6882477 = idf(docFreq=84, maxDocs=1250)
+              0.078125 = fieldNorm(doc=495)
+      0.5 = coord(1/2)
+</str>
+    <str name="453">
+0.85067904 = (MATCH) sum of:
+  0.72608924 = (MATCH) weight(Category:sales in 452) [DefaultSimilarity], result of:
+    0.72608924 = score(doc=452,freq=1.0), product of:
+      0.5126696 = queryWeight, product of:
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.18099025 = queryNorm
+      1.4162908 = fieldWeight in 452, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.5 = fieldNorm(doc=452)
+  0.12458981 = (MATCH) sum of:
+    0.12458981 = (MATCH) product of:
+      0.24917962 = (MATCH) sum of:
+        0.24917962 = (MATCH) weight(Responsibilities:experience in 452) [DefaultSimilarity], result of:
+          0.24917962 = score(doc=452,freq=2.0), product of:
+            0.5399671 = queryWeight, product of:
+              2.9834044 = idf(docFreq=171, maxDocs=1250)
+              0.18099025 = queryNorm
+            0.46147183 = fieldWeight in 452, product of:
+              1.4142135 = tf(freq=2.0), with freq of:
+                2.0 = termFreq=2.0
+              2.9834044 = idf(docFreq=171, maxDocs=1250)
+              0.109375 = fieldNorm(doc=452)
+      0.5 = coord(1/2)
+</str>
+    <str name="595">
+0.85067904 = (MATCH) sum of:
+  0.72608924 = (MATCH) weight(Category:sales in 594) [DefaultSimilarity], result of:
+    0.72608924 = score(doc=594,freq=1.0), product of:
+      0.5126696 = queryWeight, product of:
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.18099025 = queryNorm
+      1.4162908 = fieldWeight in 594, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.5 = fieldNorm(doc=594)
+  0.12458981 = (MATCH) sum of:
+    0.12458981 = (MATCH) product of:
+      0.24917962 = (MATCH) sum of:
+        0.24917962 = (MATCH) weight(Responsibilities:experience in 594) [DefaultSimilarity], result of:
+          0.24917962 = score(doc=594,freq=2.0), product of:
+            0.5399671 = queryWeight, product of:
+              2.9834044 = idf(docFreq=171, maxDocs=1250)
+              0.18099025 = queryNorm
+            0.46147183 = fieldWeight in 594, product of:
+              1.4142135 = tf(freq=2.0), with freq of:
+                2.0 = termFreq=2.0
+              2.9834044 = idf(docFreq=171, maxDocs=1250)
+              0.109375 = fieldNorm(doc=594)
+      0.5 = coord(1/2)
+</str>
+    <str name="370">
+0.826773 = (MATCH) sum of:
+  0.72608924 = (MATCH) weight(Category:sales in 369) [DefaultSimilarity], result of:
+    0.72608924 = score(doc=369,freq=1.0), product of:
+      0.5126696 = queryWeight, product of:
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.18099025 = queryNorm
+      1.4162908 = fieldWeight in 369, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.5 = fieldNorm(doc=369)
+  0.10068377 = (MATCH) sum of:
+    0.10068377 = (MATCH) product of:
+      0.20136754 = (MATCH) sum of:
+        0.20136754 = (MATCH) weight(Responsibilities:experience in 369) [DefaultSimilarity], result of:
+          0.20136754 = score(doc=369,freq=1.0), product of:
+            0.5399671 = queryWeight, product of:
+              2.9834044 = idf(docFreq=171, maxDocs=1250)
+              0.18099025 = queryNorm
+            0.37292555 = fieldWeight in 369, product of:
+              1.0 = tf(freq=1.0), with freq of:
+                1.0 = termFreq=1.0
+              2.9834044 = idf(docFreq=171, maxDocs=1250)
+              0.125 = fieldNorm(doc=369)
+      0.5 = coord(1/2)
+</str>
+    <str name="372">
+0.826773 = (MATCH) sum of:
+  0.72608924 = (MATCH) weight(Category:sales in 371) [DefaultSimilarity], result of:
+    0.72608924 = score(doc=371,freq=1.0), product of:
+      0.5126696 = queryWeight, product of:
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.18099025 = queryNorm
+      1.4162908 = fieldWeight in 371, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.5 = fieldNorm(doc=371)
+  0.10068377 = (MATCH) sum of:
+    0.10068377 = (MATCH) product of:
+      0.20136754 = (MATCH) sum of:
+        0.20136754 = (MATCH) weight(Responsibilities:experience in 371) [DefaultSimilarity], result of:
+          0.20136754 = score(doc=371,freq=1.0), product of:
+            0.5399671 = queryWeight, product of:
+              2.9834044 = idf(docFreq=171, maxDocs=1250)
+              0.18099025 = queryNorm
+            0.37292555 = fieldWeight in 371, product of:
+              1.0 = tf(freq=1.0), with freq of:
+                1.0 = termFreq=1.0
+              2.9834044 = idf(docFreq=171, maxDocs=1250)
+              0.125 = fieldNorm(doc=371)
+      0.5 = coord(1/2)
+</str>
+    <str name="421">
+0.826773 = (MATCH) sum of:
+  0.72608924 = (MATCH) weight(Category:sales in 420) [DefaultSimilarity], result of:
+    0.72608924 = score(doc=420,freq=1.0), product of:
+      0.5126696 = queryWeight, product of:
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.18099025 = queryNorm
+      1.4162908 = fieldWeight in 420, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        2.8325815 = idf(docFreq=199, maxDocs=1250)
+        0.5 = fieldNorm(doc=420)
+  0.10068377 = (MATCH) sum of:
+    0.10068377 = (MATCH) product of:
+      0.20136754 = (MATCH) sum of:
+        0.20136754 = (MATCH) weight(Responsibilities:experience in 420) [DefaultSimilarity], result of:
+          0.20136754 = score(doc=420,freq=1.0), product of:
+            0.5399671 = queryWeight, product of:
+              2.9834044 = idf(docFreq=171, maxDocs=1250)
+              0.18099025 = queryNorm
+            0.37292555 = fieldWeight in 420, product of:
+              1.0 = tf(freq=1.0), with freq of:
+                1.0 = termFreq=1.0
+              2.9834044 = idf(docFreq=171, maxDocs=1250)
+              0.125 = fieldNorm(doc=420)
+      0.5 = coord(1/2)
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">14.0</double>
+    <lst name="prepare">
+      <double name="time">1.0</double>
+      <lst name="query">
+        <double name="time">1.0</double>
+      </lst>
+      <lst name="facet">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="mlt">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="highlight">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="stats">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="expand">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="debug">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">13.0</double>
+      <lst name="query">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="facet">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="mlt">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="highlight">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="stats">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="expand">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="debug">
+        <double name="time">13.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

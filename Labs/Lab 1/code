@@ -1,0 +1,30 @@
+create keyspace labone with replication={'class':'SimpleStrategy', 'replication_factor':1};
+use labone;
+
+CREATE TABLE waterusage(ID int PRIMARY KEY, deviceID text, waterrate int, runningtotal int, activationnumber int, timestamp int);
+
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408024, 'i20-0001', 30, 0, 1, 1529024142);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408025, 'i20-0001', 30, 2, 1, 1529024144);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408026, 'i20-0001', 30, 4, 1, 1529024146);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408027, 'i20-0001', 30, 6, 1, 1529024148);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408028, 'i20-0001', 30, 8, 1, 1529024150);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408029, 'i20-0001', 30, 10, 1, 1529024152);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408030, 'i20-0001', 15, 11, 1, 1529024154);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408031, 'i20-0001', 15, 12, 1, 1529024156);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408032, 'i20-0001', 0, 12, 1, 1529024158);
+
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408033, 'i20-0001', 10, 0, 2, 1529026100);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408034, 'i20-0001', 20, 1, 2, 1529026102);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408035, 'i20-0001', 20, 3, 2, 1529026104);
+INSERT INTO waterusage(ID, deviceID, waterrate, runningtotal, activationnumber, timestamp) VALUES (981408036, 'i20-0001', 0, 3, 2, 1529026106);
+
+
+
+#Get all the times when the water is flowing at a high rate
+SELECT timestamp, deviceid, waterrate FROM waterusage WHERE waterrate > 25 ALLOW FILTERING;
+
+#export data for easier use
+SELECT timestamp, runningtotal, waterrate FROM waterusage where activationnumber = 1 ALLOW FILTERING;
+
+#helps us find out how our table is configured, check errors, make sure data is still streaming appropriately
+describe waterusage;

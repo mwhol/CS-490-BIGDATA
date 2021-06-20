@@ -1,0 +1,86 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":7,
+    "params":{
+      "sort":"Category desc",
+      "debugQuery":"true",
+      "indent":"true",
+      "q":"Preferred\\ Qualifications:\"Hadoop\" NOT Preferred\\ Qualifications:\"PhD\"",
+      "wt":"json"}},
+  "response":{"numFound":3,"start":0,"docs":[
+      {
+        "Company":"Google",
+        "Title":"Pre-Sales Solutions Architect, Google Cloud",
+        "Category":"Technical Solutions",
+        "Location":"Perth, Australia",
+        "Responsibilities":"Work with our teams to identify and qualify opportunities, trends and market solution areas. Excel in developing key strategies to solve complex technical scenarios.\nTake responsibility for technical aspects of solutions to include such activities as supporting bid responses, product and solution briefings, proof-of-concept work, and the coordination of supporting technical resources.\nWork hands-on with Google Cloud's products to demonstrate and prototype integrations in customer/partner environments\nPrepare and deliver product messaging in an effort to highlight Google Cloud's value proposition using techniques to include whiteboard and slide presentations, product demonstrations, white papers, trial management and RFI response documents\nMake recommendations on integration strategies, enterprise architectures, platforms and application infrastructure required to successfully implement a complete solution, providing “best practice” advice to customers to optimize Google Cloud's effectiveness",
+        "Minimum Qualifications":"Bachelor's degree in Computer Science or a related technical field or equivalent practical experience.\n10 years of experience in a cloud computing environment serving in a technical pre-sales or solution architecture capacity, or equivalent customer facing experience.\nExperience with one or more of the following: Big Data, SaaS, PaaS, and IaaS technologies - Application development on Web 2.0 development platform, solutions, and related technologies (web services, XML/JSON, etc.) - Infrastructure and Developer Operations - experience with enterprise networking concepts (DNS, TCP, Firewalls, Load Balancing), virtualization, migration and configuration management.\nExperience architecting, deploying or developing solutions for scalable, distributed systems, cloud or virtualization.",
+        "Preferred Qualifications":"Experience in and understanding of data and information management - especially as it relates to big data trends and issues within businesses.\nHands-on experience using and/or managing databases, or cloud technologies such as SQL, NoSQL, Hadoop or Spark.\nExperience with and in-depth knowledge of: Architecture patterns and technologies relating to web and mobile applications development (microservices, REST and frameworks such as Django, Flask, Struts), Backend as a service for cloud-connected applications, including mobile and web - Container and virtualization technologies (Docker, Kubernetes, Mesos, etc.)\nExperience with SaaS solutions e.g. productivity and collaboration suites. Experience with distributed / scale out architectures on IaaS and PaaS on public cloud.\nDemonstrable ability to create demo scripts in any one of the following scripting/programming languages: Java, C#, JavaScript, Python, Ruby and/or Shell Scripting. System administration skills on Unix/Linux and Windows.\nUnderstanding of network identity management systems to include SSO, SAML, LDAP, Kerberos.",
+        "id":"139",
+        "_version_":1604737935588982786},
+      {
+        "Company":"Google",
+        "Title":"Customer Engineer, Google Cloud Platform (Portuguese and English)",
+        "Category":"Technical Solutions",
+        "Location":"São Paulo, Brazil",
+        "Responsibilities":"Use your technical expertise to help a client determine if Google Cloud Platform is right for them.\nWork with the Sales team to identify and qualify Platform opportunities through a formal business process. Conduct full technical discovery, identifying pain points, business and technical requirements, “as is” and “to be” scenarios and architect client solutions to meet gathered requirements.\nTake full responsibility for the technical aspects of the business cycle including introductory meetings, supporting bid responses, product and solution briefings, proof-of-concept work, and the coordination of additional supporting technical resources. Identify and handle key customer technical objections, prescriptively guiding them to success.\nPrepare and deliver product messaging in an effort to highlight Google Cloud Platform value proposition and unique differentiators, using whiteboarding, slide presentations, product demonstrations, white papers, trial management and RFI response documents.\nWork hands-on with Google's Cloud Platform products to demonstrate and prototype integrations in customer/partner environments. Make recommendations on integration strategies, enterprise architectures, platforms and application infrastructure required to successfully implement a complete solution, providing “best practice” advice to customers to optimize Google Cloud Platform effectiveness.",
+        "Minimum Qualifications":"Bachelor's degree in Computer Science or a related technical field, or equivalent practical experience.\n5 years of experience serving in the capacity of a technical sales engineer in a cloud computing environment or equivalent experience in a customer facing role (including working as a member of a professional services or systems engineering team).\nAbility to speak and write in Portuguese and English fluently and idiomatically.",
+        "Preferred Qualifications":"Master's degree in Computer Science or other technical field with experience with Big Data, PaaS, and IaaS technologies.\nExperience in and understanding of data and information management - especially as it relates to Big Data trends and issues within businesses; hands-on experience using and/or managing databases. Know your way around Map Reduce, Hadoop, Spark, Flume, Hive, Impala, SparkSQL, BigQuery.\nExperience architecting and developing software for scalable, distributed systems.\nWorking knowledge of Linux, Web 2.0 development platforms, solutions, and related technologies (HTTP, Basic/NTLM,sessions, XML/XSLT/XHTML/HTML), understanding of DNS, TCP, Firewalls, Proxy Servers, DMZ, Load Balancing, VPN, VPC).\nWeb application development and integration. Software development platforms and solutions to include J2EE, Java servlets, JavaScript, Python, GO, PHP, ASP, CGI, AJAX.\nAbility to quickly learn, understand, and work with new emerging technologies, methodologies, and solutions in the Cloud/IT Technology space.",
+        "id":"180",
+        "_version_":1604737935605760001},
+      {
+        "Company":"Google",
+        "Title":"Marketing Analyst, Product Growth",
+        "Category":"Marketing & Communications",
+        "Location":"Mountain View, CA, United States",
+        "Responsibilities":"Use data to proactively identify opportunities to increase user reach and user engagement to help product teams define their strategies and roadmaps.\nTrack product performance, and perform analysis to understand top performance attributes and drivers.\nAnalyze product data to inform product and marketing strategy and advocate for consistent, measurable, and incremental growth.\nInterpret analysis results to provide meaningful product and business recommendations, and deliver effective communications and presentations to multiple levels of stakeholders to drive product changes.\nDesign experiments to test new features, and conduct quantitative data analysis of experiment results (i.e. impact analysis, product and user understanding) helping managers prioritize opportunities.",
+        "Minimum Qualifications":"BA/BS degree in Statistics, Math, Economics, CS, related quantitative field or equivalent practical experience.\n4 years of experience in statistics, including fundamental statistics principles and methods, statistical training, experimental design, data analysis, statistical modeling, and survey design.\nExperience with technical data analysis and querying data from scale databases using SQL.\nExperience in product analysis.",
+        "Preferred Qualifications":"Experience with user acquisition, engagement and retention analysis.\nExperience with MapReduce/Hadoop and programming skills in Python, PHP, Java, C++ or similar languages.\nExpertise with statistical tools/software packages (e.g., R, SAS, Stata, Matlab, etc.).\nCapable of translating analysis results into product and business recommendations.\nStrong product sense with great business judgment.\nStrong ability to effectively influence and communicate cross-functionally across all levels of management, and work on multiple projects simultaneously in a fast paced dynamic environment.",
+        "id":"737",
+        "_version_":1604737935948644353}]
+  },
+  "debug":{
+    "rawquerystring":"Preferred\\ Qualifications:\"Hadoop\" NOT Preferred\\ Qualifications:\"PhD\"",
+    "querystring":"Preferred\\ Qualifications:\"Hadoop\" NOT Preferred\\ Qualifications:\"PhD\"",
+    "parsedquery":"Preferred Qualifications:hadoop -Preferred Qualifications:phd",
+    "parsedquery_toString":"Preferred Qualifications:hadoop -Preferred Qualifications:phd",
+    "explain":{
+      "139":"\n0.49524528 = (MATCH) sum of:\n  0.49524528 = (MATCH) weight(Preferred Qualifications:hadoop in 138) [DefaultSimilarity], result of:\n    0.49524528 = fieldWeight in 138, product of:\n      1.0 = tf(freq=1.0), with freq of:\n        1.0 = termFreq=1.0\n      6.3391395 = idf(docFreq=5, maxDocs=1250)\n      0.078125 = fieldNorm(doc=138)\n",
+      "180":"\n0.49524528 = (MATCH) sum of:\n  0.49524528 = (MATCH) weight(Preferred Qualifications:hadoop in 179) [DefaultSimilarity], result of:\n    0.49524528 = fieldWeight in 179, product of:\n      1.0 = tf(freq=1.0), with freq of:\n        1.0 = termFreq=1.0\n      6.3391395 = idf(docFreq=5, maxDocs=1250)\n      0.078125 = fieldNorm(doc=179)\n",
+      "737":"\n0.6933434 = (MATCH) sum of:\n  0.6933434 = (MATCH) weight(Preferred Qualifications:hadoop in 736) [DefaultSimilarity], result of:\n    0.6933434 = fieldWeight in 736, product of:\n      1.0 = tf(freq=1.0), with freq of:\n        1.0 = termFreq=1.0\n      6.3391395 = idf(docFreq=5, maxDocs=1250)\n      0.109375 = fieldNorm(doc=736)\n"},
+    "QParser":"LuceneQParser",
+    "timing":{
+      "time":7.0,
+      "prepare":{
+        "time":0.0,
+        "query":{
+          "time":0.0},
+        "facet":{
+          "time":0.0},
+        "mlt":{
+          "time":0.0},
+        "highlight":{
+          "time":0.0},
+        "stats":{
+          "time":0.0},
+        "expand":{
+          "time":0.0},
+        "debug":{
+          "time":0.0}},
+      "process":{
+        "time":7.0,
+        "query":{
+          "time":0.0},
+        "facet":{
+          "time":0.0},
+        "mlt":{
+          "time":0.0},
+        "highlight":{
+          "time":0.0},
+        "stats":{
+          "time":0.0},
+        "expand":{
+          "time":0.0},
+        "debug":{
+          "time":7.0}}}}}
